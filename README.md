@@ -9,6 +9,12 @@ This is a Bash script that plays the video capture device of a Nintendo Switch u
 - mpv
 - v4l2-ctl
 
+## Caveat about detection
+
+My particular card capture only supported MJPG and this was how I could distinguish it from my webcam.
+
+This might not work for you, so you can always modify the DEV_VIDEO to your appropriate /dev/video* device.
+
 ## Usage
 
 1. Connect the Nintendo Switch to the computer's video capture device.
