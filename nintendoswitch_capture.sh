@@ -27,7 +27,7 @@ if [[ -z "$DEV_VIDEO" ]]; then
     echo "Could not find a device with MJPG format."
 else
     echo "Using device $DEV_VIDEO with MJPG format."
-    mpv "$DEV_VIDEO" --osc=no
+    mpv "$DEV_VIDEO" --osc=no --title="Nintendo Switch"
 fi
 
 # Unload the loopback module
