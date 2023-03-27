@@ -28,7 +28,7 @@ This might not work for you, so you can always modify the DEV_VIDEO to your appr
 
 - The script uses the `pactl` command to load and unload the PulseAudio loopback module. If you encounter permission issues, try running the script with `sudo`.
 - The script will only work with a capture device that has MJPG format. If your device has a different format, you will need to modify the script accordingly.
-- This script was tested on Ubuntu 20.04. It may work on other Linux distributions as well, but it has not been tested.
+- This script was tested on 5.15.94-1-MANJARO. It may work on other Linux distributions as well, but it has not been tested.
 
 ## License
 
